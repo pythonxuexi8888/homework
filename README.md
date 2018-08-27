@@ -9,7 +9,7 @@
 1.命令行添加代码
 
 第一次使用：         
-centos：
+centos：       
   yum install git       
   
   
