@@ -10,7 +10,9 @@
 
 第一次使用：
 centos：
-  yum install git
+  yum install git       
+  
+  
 Ubuntu：
   apt-get install git
   
