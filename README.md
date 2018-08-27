@@ -8,12 +8,12 @@
 
 1.命令行添加代码
 
-第一次使用：
+第一次使用：         
 centos：
   yum install git       
   
   
-Ubuntu：
+Ubuntu：       
   apt-get install git
   
 git clone https://github.com/python15/homework.git
