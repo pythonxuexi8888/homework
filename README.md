@@ -20,8 +20,8 @@
 
 创建SSH key的方法很简单，执行如下命令就可以： ssh-keygen 生成的SSH key文件保存在中～/.ssh/id_rsa.pub
 
-然后用文本编辑工具打开该文件，我用的是vim,所以命令是： vim ~/.ssh/id_rsa.pub
+然后用文本编辑工具打开该文件，我用的是cat,所以命令是： cat ~/.ssh/id_rsa.pub
 
-接着拷贝.ssh/id_rsa.pub文件内的所以内容，将它粘帖到github帐号管理中的添加SSH key界面中。 打开github帐号管理中的添加SSH key界面的步骤如下：
+接着拷贝出现在屏幕上的内容，将它粘帖到github帐号管理中的添加SSH key界面中。 打开github帐号管理中的添加SSH key界面的步骤如下：
 
 登录github 点击右上方的Accounting settings图标 选择 SSH key 点击 Add SSH key 在出现的界面中填写SSH key的名称，填一个你自己喜欢的名称即可 然后将上面拷贝的~/.ssh/id_rsa.pub文件内容粘贴到key一栏，在点击“add key”按钮就可以了。 添加过程github会提示你输入一次你的github密码 添加完成后再次执行git clone就可以成功克隆github上的代码库了。
