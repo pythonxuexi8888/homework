@@ -24,4 +24,4 @@
 
 接着拷贝出现在屏幕上的内容，将它粘帖到github帐号管理中的添加SSH key界面中。 打开github帐号管理中的添加SSH key界面的步骤如下：
 
-登录github 点击右上方的Accounting settings图标 选择 SSH key 点击 Add SSH key 在出现的界面中填写SSH key的名称，填一个你自己喜欢的名称即可 然后将上面拷贝的~/.ssh/id_rsa.pub文件内容粘贴到key一栏，在点击“add key”按钮就可以了。 添加过程github会提示你输入一次你的github密码 添加完成后再次执行git clone就可以成功克隆github上的代码库了。
+登录github 点击右上方的Accounting，再点击settings图标 选择 SSH and GPGkeys， 点击 New SSH key 在出现的界面中填写SSH key的名称，填一个你自己喜欢的名称即可 然后将上面拷贝的cat ~/.ssh/id_rsa.pub 出现的内容，粘贴到key一栏，在点击“Add SSH key”按钮就可以了。 添加过程github会提示你输入一次你的github密码 添加完成后再次执行git clone就可以成功克隆github上的代码库了。
