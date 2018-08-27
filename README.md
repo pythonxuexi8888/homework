@@ -22,7 +22,7 @@ git clone https://github.com/python15/homework.git
 
 查看代码状态 git status
 
-后面添加代码，只需要下面三行即可：
+后面添加代码，只需要下面三行即可：     
   git add .     
   git commit -m "first commit" //第一次提交      
   git push -u origin master //同步到远程服务器      
